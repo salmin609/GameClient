@@ -21,7 +21,7 @@ public class Client : MonoBehaviour
         {
             instance = this;
         }
-        //asdasd
+        
         else if (instance != this)
         {
             Debug.Log("Client instance already exist");
